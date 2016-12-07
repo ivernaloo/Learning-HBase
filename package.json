@@ -1,0 +1,16 @@
+{
+  "name": "dao",
+  "version": "1.0.0",
+  "description": "通过REST访问HBASE的数据源",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "hbase": "^0.2.2"
+  }
+}
